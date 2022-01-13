@@ -1,0 +1,41 @@
+{
+  "name": "lap_3_code_challenge_guy_jasmine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-cli serve --mode development --config config/webpack.config.dev.js",
+    "build": "webpack --config config/webpack.config.production.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guymargalith/lap_3_code_challenge_guy_jasmine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guymargalith/lap_3_code_challenge_guy_jasmine/issues"
+  },
+  "homepage": "https://github.com/guymargalith/lap_3_code_challenge_guy_jasmine#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.16.8",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  }
+}
